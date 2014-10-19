@@ -5,7 +5,7 @@ name:                hwhois
 version:             1.0.0
 synopsis:            A very simple CLI to whois-hs.
 -- description:         
-homepage:            http://github.com/CodeBlock/hwhois
+homepage:            http://github.com/relrod/hwhois
 license:             BSD3
 license-file:        LICENSE
 author:              Ricky Elrod
@@ -18,5 +18,5 @@ cabal-version:       >=1.8
 executable hwhois
   main-is:             hwhois.hs
   -- other-modules:       
-  build-depends:       base ==4.6.*, optparse-applicative ==0.7.*, whois
+  build-depends:       base >= 4 && < 5, optparse-applicative ==0.7.*, whois
   ghc-options:         -Wall -O2
